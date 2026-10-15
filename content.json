@@ -24,12 +24,14 @@
     "presentation": "https://leej3.github.io/ai-and-ales-2026/",
     "zenodo_study": "https://zenodo.org/records/22833916",
     "next_repo": "https://github.com/leej3/stamped-ai-research-next",
-    "next_work": "https://github.com/leej3/stamped-ai-research-next/pull/3"
+    "next_work": "https://github.com/leej3/stamped-ai-research-next/pull/3",
+    "keyhatch": "https://github.com/leej3/keyhatch",
+    "keyhatch_limits": "https://github.com/leej3/keyhatch/blob/main/SECURITY.md"
   },
   "slides": [
     {
       "title": "My agent workbench",
-      "seconds": 25,
+      "seconds": 20,
       "elements": [
         {
           "kind": "text",
@@ -81,14 +83,14 @@
           "alt": "Phoenix illustration from The Software Engineer Reborn"
         }
       ],
-      "notes": "I'm John. I work on research software at Dartmouth's Center for Open Neuroscience. I use coding agents to build software, explore ideas, and prepare talks like this one. Tonight I want to show a few things I've made and the question connecting them: when an agent produces something, what would let another person understand it and trust it?",
+      "notes": "I'm John. I work on research software at Dartmouth's Center for Open Neuroscience. I use coding agents to build software, explore ideas, and prepare talks. Here are a few things I've made, connected by one question: what would let another person understand an agent's work and trust it?",
       "sources": [
         "https://leej3.github.io/software-engineer-reborn/"
       ]
     },
     {
       "title": "The tools around my agent",
-      "seconds": 45,
+      "seconds": 35,
       "elements": [
         {
           "kind": "text",
@@ -217,7 +219,7 @@
           "link": "https://github.com/con/duct"
         }
       ],
-      "notes": "The agent is only part of my setup. Codex works with the actual project files and terminal. Skills are reusable instructions for a particular kind of work, while Markdown keeps the goal and important decisions visible. Git records changes. Worktrees let me try things separately without mixing unfinished changes together. Pixi describes the software environment, and DataLad connects data and code with their history. When I need execution records, duct captures what a command did. These tools give the agent something concrete to act on, and give me something concrete to check. The skill workshop and worktree utilities are linked here if you want to explore them.",
+      "notes": "Codex works with my actual project files and terminal. Skills are reusable instructions, while Markdown keeps the goal and decisions visible. Git records changes, and worktrees keep separate experiments from mixing together. Pixi describes the software environment, and DataLad connects data and code with their history. When I need execution records, duct captures what a command did. These tools give the agent something concrete to act on, and give me something concrete to check. My skill workshop and worktree utilities are linked here.",
       "sources": [
         "https://github.com/leej3/software-engineer-reborn/tree/main/talk-concepts/06-the-ai-era-development-environment.md",
         "https://github.com/leej3/skills-workshop",
@@ -225,8 +227,106 @@
       ]
     },
     {
+      "title": "Keyhatch",
+      "seconds": 35,
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Keyhatch",
+          "x": 64,
+          "y": 55,
+          "w": 1152,
+          "h": 85,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Selective credential access for agents",
+          "x": 64,
+          "y": 175,
+          "w": 1152,
+          "h": 70,
+          "size": 44,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Approve selected credentials once.\nAllow repeated retrieval within a limited window.",
+          "x": 64,
+          "y": 300,
+          "w": 1130,
+          "h": 115,
+          "size": 37,
+          "bold": false,
+          "color": "#15716e"
+        },
+        {
+          "kind": "text",
+          "text": "Native macOS app + local command-line client",
+          "x": 64,
+          "y": 455,
+          "w": 1130,
+          "h": 60,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Expiry stops future retrieval. It cannot recall a disclosed secret.",
+          "x": 64,
+          "y": 535,
+          "w": 1130,
+          "h": 58,
+          "size": 27,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Project + source",
+          "x": 64,
+          "y": 646,
+          "w": 400,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/leej3/keyhatch"
+        },
+        {
+          "kind": "text",
+          "text": "Design and limits",
+          "x": 485,
+          "y": 646,
+          "w": 360,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/leej3/keyhatch/blob/main/SECURITY.md"
+        },
+        {
+          "kind": "text",
+          "text": "Experimental build",
+          "x": 920,
+          "y": 646,
+          "w": 310,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#aa492e"
+        }
+      ],
+      "notes": "Keyhatch tackles a very practical interruption: an agent needs a credential to do useful work. I'm building a native Mac app where I approve selected credentials once, then allow repeated retrieval during a limited window. Apple Passwords remains the source of truth, with selective import into Keyhatch. A local command-line client connects the agent to the broker. The important tradeoff is that a recipient can keep a disclosed secret. Expiry stops future retrieval; it cannot take that secret back. It's an experimental project with public source. Production signing and release validation remain unfinished.",
+      "sources": [
+        "https://github.com/leej3/keyhatch",
+        "https://github.com/leej3/keyhatch/blob/main/SECURITY.md",
+        "https://github.com/leej3/keyhatch/blob/main/docs/DISTRIBUTION.md"
+      ]
+    },
+    {
       "title": "The Software Engineer Reborn",
-      "seconds": 45,
+      "seconds": 40,
       "elements": [
         {
           "kind": "text",
@@ -291,7 +391,7 @@
           "link": "https://leej3.github.io/software-engineer-reborn/"
         }
       ],
-      "notes": "This is The Software Engineer Reborn, a talk I prepared for the Williamsburg software community. On the left is the preparation: a Talk Atlas where I can compare possible narratives and follow source notes. On the right is the presentation that came out of that process. Making a tool to think with became part of making the talk. The question I kept coming back to was about my own role. As the machine produces more implementation, I spend more attention on defining the problem, selecting evidence, and deciding which work I can actually stand behind. Both the preparation and the finished slides are public.",
+      "notes": "This is The Software Engineer Reborn, a talk for the Williamsburg software community. On the left is the preparation: a Talk Atlas for comparing narratives and following source notes. On the right is the presentation. Making a tool to think with became part of making the talk. The question was about my own role. As the machine produces more implementation, I spend more attention on defining the problem, selecting evidence, and deciding which work I can stand behind. Both the preparation and the finished slides are public.",
       "sources": [
         "https://software-engineer-reborn-atlas.johnlee3728739.chatgpt.site/",
         "https://leej3.github.io/software-engineer-reborn/",
@@ -300,7 +400,7 @@
     },
     {
       "title": "What did we just make?",
-      "seconds": 45,
+      "seconds": 40,
       "elements": [
         {
           "kind": "text",
@@ -366,7 +466,7 @@
           "link": "https://stamped-principles.org/"
         }
       ],
-      "notes": "The next talk asks, 'What did we just make?' A figure or a report is only the visible result. The useful object also includes the inputs, code, decisions, and environment needed to inspect it or run it again. Our team's STAMPED principles give us a vocabulary for that package: self-contained, tracked, actionable, modular, portable, ephemeral, and distributable. In plain terms: can I get the pieces, see their history, run the procedure, and recover a useful state somewhere else? This matters beyond science. An AI-generated website, spreadsheet, or presentation also needs enough context for the next person to understand what they have.",
+      "notes": "The next talk asks, 'What did we just make?' A figure or report is only the visible result. The useful object also includes the inputs, code, decisions, and environment needed to inspect or rerun it. Our team's STAMPED principles give us a vocabulary: self-contained, tracked, actionable, modular, portable, ephemeral, and distributable. In plain terms: can I get the pieces, see their history, run the procedure, and recover a useful state elsewhere? This matters beyond science. An AI-generated website or spreadsheet also needs enough context for the next person.",
       "sources": [
         "https://research-object-with-ai.pages.dev/",
         "https://github.com/leej3/research-object-with-ai",
@@ -375,7 +475,7 @@
     },
     {
       "title": "Orinoco Lite: connected research information",
-      "seconds": 55,
+      "seconds": 50,
       "elements": [
         {
           "kind": "text",
@@ -463,7 +563,7 @@
           "link": "https://doi.org/10.5281/zenodo.22834595"
         }
       ],
-      "notes": "Orinoco Lite is one example of software I've been working on with agents. Research groups have information about people, projects, publications, and software scattered across many places. Here those things become structured records with explicit relationships. The website and this graph are different views of those records. An editor can propose a change through GitHub so the proposal and its review have a visible history. It builds on the upstream ORINOCO work, with a lighter Git-backed deployment. What interests me is the shared context: people can browse it, software can validate it, and agents can work with a clearer description of what the group knows. The screenshot is saved here, so this example doesn't depend on tonight's Wi-Fi.",
+      "notes": "Orinoco Lite is software I've been working on with agents. Research groups have information about people, projects, publications, and software scattered across many places. Here those become structured records with explicit relationships. The website and this graph are different views of those records. An editor proposes changes through GitHub, preserving a visible review history. It builds on upstream ORINOCO with a lighter Git-backed deployment. What interests me is shared context: people can browse it, software can validate it, and agents can work with a clearer description of what the group knows. This screenshot is saved, so the example works without Wi-Fi.",
       "sources": [
         "https://github.com/ORINOCO-Lite/orinoco-lite-dev",
         "https://dev.centerforopenneuroscience.org/explore/",
@@ -472,7 +572,7 @@
     },
     {
       "title": "STAMPED in Practice",
-      "seconds": 60,
+      "seconds": 55,
       "elements": [
         {
           "kind": "text",

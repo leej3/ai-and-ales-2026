@@ -14,7 +14,7 @@ Press **F** for fullscreen and **N** for speaker notes.
 The footer links to these sources and the download page.
 External project links require an internet connection.
 
-The seven slides have a five-minute timing plan and a roughly 700-word [speaking script](speaker-notes.md).
+The eight slides have a five-minute timing plan and a roughly 700-word [speaking script](speaker-notes.md).
 The [PowerPoint](downloads/ai-and-ales.pptx) embeds images, links, and speaker notes.
 The [PDF](downloads/ai-and-ales.pdf) is a static backup with clickable links.
 None of these files has password protection.
@@ -39,7 +39,7 @@ Set `RENDER_PPTX=1` to render individual slide previews for visual inspection.
 The checked PowerPoint is included in `downloads/` for use without that runtime.
 
 To export the PDF, open `index.html` in Chrome and print to PDF.
-The print stylesheet includes all seven slides at 16:9, with no browser controls.
+The print stylesheet includes all eight slides at 16:9, with no browser controls.
 Disable headers and footers and enable background graphics.
 
 ## Attribution

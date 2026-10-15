@@ -3,6 +3,18 @@
 The presentation is a snapshot prepared for October 15, 2026.
 Links on individual slides are also embedded in the PowerPoint and PDF.
 
+## Keyhatch
+
+- [Public source and current status](https://github.com/leej3/keyhatch).
+- [Security model and limits](https://github.com/leej3/keyhatch/blob/main/SECURITY.md).
+- [Distribution paths](https://github.com/leej3/keyhatch/blob/main/docs/DISTRIBUTION.md).
+
+Keyhatch is an experimental macOS credential broker by John Lee.
+The slide describes selective credential import, explicit approval and bounded retrieval, not isolation from every process running as the same user.
+A recipient can retain a disclosed credential; expiry limits future retrieval.
+The development chat reports passing universal builds and an unsigned archive, with production signing and release validation still pending.
+This presentation does not claim App Store availability or production readiness.
+
 ## The Software Engineer Reborn
 
 - [Presentation](https://leej3.github.io/software-engineer-reborn/).
