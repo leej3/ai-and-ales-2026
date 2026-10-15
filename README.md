@@ -46,7 +46,8 @@ Disable headers and footers and enable background graphics.
 
 OpenAI Codex assisted with source review, drafting, layout, and build checks.
 Source links and image credits are in [SOURCES.md](SOURCES.md).
-The STAMPED study's small, unblinded comparisons do not establish general skill effectiveness; the deck retains its failed screening result and scope limits.
+The STAMPED slide connects the Zenodo study record and poster PR to the next research workshop.
+Improved performance and transfer remain hypotheses to test.
 
 Original presentation prose and code are copyright 2026 John Lee.
 Third-party and institutional material retains its existing rights and notices.

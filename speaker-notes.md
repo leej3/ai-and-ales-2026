@@ -83,22 +83,23 @@ Sources:
 
 ## 6. STAMPED in Practice (3:35–4:35)
 
-The STAMPED in Practice poster asks whether reusable skills help an agent leave better research evidence.
-We compared three paired tasks using public mixed-gambles task data.
-One attempt in each pair had additional STAMPED skills.
-All six attempts matched the checks on the actual data and passed fresh scientific command replay.
-The skills-assisted attempts took longer and added explicit research records.
-But one of them failed two required missing-value screening cases.
-Those tokens weren't present in the actual dataset, so a successful replay didn't expose the defect.
-We retained that failure.
-These are three small, unblinded comparisons with shared infrastructure and agent assessments, not proof that skills work generally.
-And this is the public-data replacement for an earlier ABCD proposal, not an ABCD reproduction.
-For me the useful part is having evidence that lets us ask a more precise question than 'Did the agent finish?'
+The Zenodo record describes the original STAMPED in Practice proposal.
+The current poster PR captures the later public-data pilot, with working analyses and concrete failures to learn from.
+The next repository develops a repeated improvement process.
+Independent agents tackle the same scientific question under four kinds of assistance: baseline, general skill discovery, reproducibility-focused discovery, and explicit STAMPED skills.
+Independent judges assess scientific quality separately from how well the research object supports inspection and reuse.
+We then improve the skills and try again, keeping assessment fixed within a formal comparison.
+NARPS preparation pilots are already exposing useful problems.
+The hypothesis is that detailed STAMPED guidance improves performance and reduces inconsistent outcomes.
+The goal is transfer: a researcher brings their own data and hypothesis, and an independent agent can use these skills to do rigorous, convenient research.
+That improvement remains to be tested.
 
 Sources:
 
-- https://github.com/leej3/stamped-ai-research/blob/codex/stamped-poster-study/research/REPORT.md
-- https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study
+- https://github.com/con/talks/pull/35
+- https://zenodo.org/records/22833916
+- https://github.com/leej3/stamped-ai-research-next
+- https://github.com/leej3/stamped-ai-research-next/pull/3
 
 ## 7. What would convince you? (4:35–5:00)
 

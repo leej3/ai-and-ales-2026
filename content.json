@@ -12,16 +12,19 @@
     "orinoco": "https://github.com/ORINOCO-Lite/orinoco-lite-dev",
     "graph": "https://dev.centerforopenneuroscience.org/explore/",
     "orinoco_poster": "https://doi.org/10.5281/zenodo.22834595",
-    "study": "https://github.com/leej3/stamped-ai-research/tree/codex/stamped-poster-study",
-    "report": "https://github.com/leej3/stamped-ai-research/blob/codex/stamped-poster-study/research/REPORT.md",
-    "poster": "https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study",
+    "study": "https://github.com/leej3/stamped-ai-research",
+    "report": "https://github.com/leej3/stamped-ai-research/blob/main/research/REPORT.md",
+    "poster": "https://github.com/con/talks/pull/35",
     "skills": "https://github.com/con/skills",
     "workshop": "https://github.com/leej3/skills-workshop",
     "worktrees": "https://github.com/leej3/wt-utils",
     "duct": "https://github.com/con/duct",
     "stamped": "https://stamped-principles.org/",
     "source": "https://github.com/leej3/ai-and-ales-2026",
-    "presentation": "https://leej3.github.io/ai-and-ales-2026/"
+    "presentation": "https://leej3.github.io/ai-and-ales-2026/",
+    "zenodo_study": "https://zenodo.org/records/22833916",
+    "next_repo": "https://github.com/leej3/stamped-ai-research-next",
+    "next_work": "https://github.com/leej3/stamped-ai-research-next/pull/3"
   },
   "slides": [
     {
@@ -483,7 +486,7 @@
         },
         {
           "kind": "text",
-          "text": "Can reusable skills help an agent\nleave better research evidence?",
+          "text": "Skills that improve through\nscientific work",
           "x": 64,
           "y": 165,
           "w": 695,
@@ -493,35 +496,35 @@
         },
         {
           "kind": "text",
-          "text": "3 paired tasks. 6 attempts.",
+          "text": "Study record on Zenodo",
           "x": 64,
           "y": 310,
           "w": 670,
           "h": 57,
-          "size": 37,
+          "size": 32,
           "bold": true,
           "color": "#15716e"
         },
         {
           "kind": "text",
-          "text": "All matched the actual-data checks\nand passed fresh scientific replay.",
+          "text": "Next: run, assess, improve, repeat",
           "x": 64,
-          "y": 380,
+          "y": 390,
           "w": 660,
-          "h": 96,
+          "h": 65,
           "size": 30,
           "bold": false
         },
         {
           "kind": "text",
-          "text": "One skills-assisted attempt still failed\n2 missing-value screening cases.",
+          "text": "Compare four assistance conditions.\nTest quality, effort and consistency.",
           "x": 64,
-          "y": 500,
+          "y": 485,
           "w": 660,
           "h": 96,
-          "size": 30,
-          "bold": true,
-          "color": "#aa492e"
+          "size": 28,
+          "bold": false,
+          "color": "#183a3c"
         },
         {
           "kind": "image",
@@ -534,9 +537,9 @@
         },
         {
           "kind": "text",
-          "text": "Exploratory, unblinded study.\nNo general claim of skill effectiveness.",
+          "text": "Research workshop in development.\nTransfer remains to be tested.",
           "x": 815,
-          "y": 585,
+          "y": 580,
           "w": 400,
           "h": 68,
           "size": 23,
@@ -544,33 +547,47 @@
         },
         {
           "kind": "text",
-          "text": "Study + evidence",
+          "text": "Poster PR #35",
           "x": 64,
           "y": 646,
-          "w": 390,
+          "w": 330,
           "h": 38,
           "size": 24,
           "bold": false,
           "color": "#15716e",
-          "link": "https://github.com/leej3/stamped-ai-research/blob/codex/stamped-poster-study/research/REPORT.md"
+          "link": "https://github.com/con/talks/pull/35"
         },
         {
           "kind": "text",
-          "text": "Poster + source",
-          "x": 440,
+          "text": "Study on Zenodo",
+          "x": 455,
+          "y": 646,
+          "w": 340,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://zenodo.org/records/22833916"
+        },
+        {
+          "kind": "text",
+          "text": "Next repository",
+          "x": 865,
           "y": 646,
           "w": 350,
           "h": 38,
           "size": 24,
           "bold": false,
           "color": "#15716e",
-          "link": "https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study"
+          "link": "https://github.com/leej3/stamped-ai-research-next"
         }
       ],
-      "notes": "The STAMPED in Practice poster asks whether reusable skills help an agent leave better research evidence. We compared three paired tasks using public mixed-gambles task data. One attempt in each pair had additional STAMPED skills. All six attempts matched the checks on the actual data and passed fresh scientific command replay. The skills-assisted attempts took longer and added explicit research records. But one of them failed two required missing-value screening cases. Those tokens weren't present in the actual dataset, so a successful replay didn't expose the defect. We retained that failure. These are three small, unblinded comparisons with shared infrastructure and agent assessments, not proof that skills work generally. And this is the public-data replacement for an earlier ABCD proposal, not an ABCD reproduction. For me the useful part is having evidence that lets us ask a more precise question than 'Did the agent finish?'",
+      "notes": "The Zenodo record describes the original STAMPED in Practice proposal. The current poster PR captures the later public-data pilot, with working analyses and concrete failures to learn from. The next repository develops a repeated improvement process. Independent agents tackle the same scientific question under four kinds of assistance: baseline, general skill discovery, reproducibility-focused discovery, and explicit STAMPED skills. Independent judges assess scientific quality separately from how well the research object supports inspection and reuse. We then improve the skills and try again, keeping assessment fixed within a formal comparison. NARPS preparation pilots are already exposing useful problems. The hypothesis is that detailed STAMPED guidance improves performance and reduces inconsistent outcomes. The goal is transfer: a researcher brings their own data and hypothesis, and an independent agent can use these skills to do rigorous, convenient research. That improvement remains to be tested.",
       "sources": [
-        "https://github.com/leej3/stamped-ai-research/blob/codex/stamped-poster-study/research/REPORT.md",
-        "https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study"
+        "https://github.com/con/talks/pull/35",
+        "https://zenodo.org/records/22833916",
+        "https://github.com/leej3/stamped-ai-research-next",
+        "https://github.com/leej3/stamped-ai-research-next/pull/3"
       ]
     },
     {

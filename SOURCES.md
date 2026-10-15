@@ -37,19 +37,24 @@ The source poster credits that lineage; no sole-authorship claim is made here.
 
 ## STAMPED in Practice
 
-- [Study and evidence branch](https://github.com/leej3/stamped-ai-research/tree/codex/stamped-poster-study).
-- [Study report](https://github.com/leej3/stamped-ai-research/blob/codex/stamped-poster-study/research/REPORT.md).
-- [Poster and source](https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study).
+- [Study and evidence branch](https://github.com/leej3/stamped-ai-research).
+- [Study report](https://github.com/leej3/stamped-ai-research/blob/main/research/REPORT.md).
+- [Poster and source](https://github.com/con/talks/pull/35).
 
 `stamped-poster.png` is the existing checked PDF preview from the poster module.
 The poster credits John A. Lee, Austin Macdonald, Cody C. Baker, and Yaroslav O. Halchenko, Center for Open Neuroscience, Dartmouth College, with ReproNim support.
 The poster composition uses CC BY-SA 4.0 with separate institutional artwork exceptions, as documented by its source repository.
 
-The deck reports the finished public mixed-gambles study, not the superseded ABCD proposal.
-All six attempts matched actual-data checks and passed fresh scientific command replay.
-Stage 03 treatment failed two required case-insensitive missing-token screening cases, which were retained unrepaired.
-The shared host/account infrastructure and unblinded agent assessments limit interpretation.
-These results do not establish general effectiveness of the skills.
+The poster remains a draft in PR #35, visually unchanged from the preview.
+[Zenodo record 22833916](https://zenodo.org/records/22833916) contains the original ABCD-oriented proposal, published September 18, 2026.
+It is distinct from the later mixed-gambles pilot in PR #35.
+The later pilot's exploratory results are historical evidence, not proof of general skill effectiveness.
+
+The [next repository](https://github.com/leej3/stamped-ai-research-next) develops an iterative research workshop; [PR #3](https://github.com/leej3/stamped-ai-research-next/pull/3) contains the current four-condition design and coordinator work.
+Preparation includes three independent NARPS baseline pilots.
+Formal comparisons should hold their assessment fixed while skill revisions evolve.
+Improved performance, reduced variability and transfer to independent scientific questions remain hypotheses, not demonstrated results.
+The presentation distinguishes this development direction from the archived pilot.
 
 ## Tool projects
 
