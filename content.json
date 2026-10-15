@@ -1,0 +1,641 @@
+{
+  "title": "My agent workbench",
+  "author": "John Lee",
+  "date": "2026-10-15",
+  "durationSeconds": 300,
+  "links": {
+    "reborn": "https://leej3.github.io/software-engineer-reborn/",
+    "prep": "https://software-engineer-reborn-atlas.johnlee3728739.chatgpt.site/",
+    "prep_source": "https://github.com/leej3/software-engineer-reborn/tree/main/talk-concepts",
+    "research": "https://research-object-with-ai.pages.dev/",
+    "research_source": "https://github.com/leej3/research-object-with-ai",
+    "orinoco": "https://github.com/ORINOCO-Lite/orinoco-lite-dev",
+    "graph": "https://dev.centerforopenneuroscience.org/explore/",
+    "orinoco_poster": "https://doi.org/10.5281/zenodo.22834595",
+    "study": "https://github.com/leej3/stamped-ai-research/tree/codex/stamped-poster-study",
+    "report": "https://github.com/leej3/stamped-ai-research/blob/codex/stamped-poster-study/research/REPORT.md",
+    "poster": "https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study",
+    "skills": "https://github.com/con/skills",
+    "workshop": "https://github.com/leej3/skills-workshop",
+    "worktrees": "https://github.com/leej3/wt-utils",
+    "duct": "https://github.com/con/duct",
+    "stamped": "https://stamped-principles.org/",
+    "source": "https://github.com/leej3/ai-and-ales-2026",
+    "presentation": "https://leej3.github.io/ai-and-ales-2026/"
+  },
+  "slides": [
+    {
+      "title": "My agent workbench",
+      "seconds": 25,
+      "elements": [
+        {
+          "kind": "text",
+          "text": "My agent\nworkbench",
+          "x": 64,
+          "y": 148,
+          "w": 760,
+          "h": 200,
+          "size": 82,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Making things with AI.\nKeeping enough evidence to trust them.",
+          "x": 68,
+          "y": 375,
+          "w": 760,
+          "h": 100,
+          "size": 34,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "John Lee",
+          "x": 68,
+          "y": 540,
+          "w": 600,
+          "h": 44,
+          "size": 30,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "AI & Ales \u00b7 Jamestown Frontier Society\nOctober 15, 2026 \u00b7 Billsburg Brewery",
+          "x": 68,
+          "y": 592,
+          "w": 900,
+          "h": 70,
+          "size": 23,
+          "bold": false
+        },
+        {
+          "kind": "image",
+          "src": "assets/reborn-engineer.png",
+          "x": 875,
+          "y": 185,
+          "w": 320,
+          "h": 360,
+          "alt": "Phoenix illustration from The Software Engineer Reborn"
+        }
+      ],
+      "notes": "I'm John. I work on research software at Dartmouth's Center for Open Neuroscience. I use coding agents to build software, explore ideas, and prepare talks like this one. Tonight I want to show a few things I've made and the question connecting them: when an agent produces something, what would let another person understand it and trust it?",
+      "sources": [
+        "https://leej3.github.io/software-engineer-reborn/"
+      ]
+    },
+    {
+      "title": "The tools around my agent",
+      "seconds": 45,
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The tools around my agent",
+          "x": 64,
+          "y": 55,
+          "w": 1152,
+          "h": 85,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Codex",
+          "x": 64,
+          "y": 195,
+          "w": 310,
+          "h": 56,
+          "size": 38,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "A working partner in my projects, files and terminal",
+          "x": 400,
+          "y": 199,
+          "w": 800,
+          "h": 64,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Skills + Markdown",
+          "x": 64,
+          "y": 292,
+          "w": 325,
+          "h": 64,
+          "size": 32,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Reusable instructions and decisions that survive a chat",
+          "x": 400,
+          "y": 292,
+          "w": 800,
+          "h": 80,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Git + worktrees",
+          "x": 64,
+          "y": 392,
+          "w": 325,
+          "h": 60,
+          "size": 32,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Separate experiments, inspect changes, recover a state",
+          "x": 400,
+          "y": 392,
+          "w": 800,
+          "h": 80,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Pixi + DataLad",
+          "x": 64,
+          "y": 492,
+          "w": 325,
+          "h": 60,
+          "size": 32,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Recover environments and connect data to the work",
+          "x": 400,
+          "y": 492,
+          "w": 800,
+          "h": 80,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "My skill workshop",
+          "x": 64,
+          "y": 646,
+          "w": 300,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/leej3/skills-workshop"
+        },
+        {
+          "kind": "text",
+          "text": "Worktree tools",
+          "x": 400,
+          "y": 646,
+          "w": 300,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/leej3/wt-utils"
+        },
+        {
+          "kind": "text",
+          "text": "Execution records: duct",
+          "x": 800,
+          "y": 646,
+          "w": 420,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/con/duct"
+        }
+      ],
+      "notes": "The agent is only part of my setup. Codex works with the actual project files and terminal. Skills are reusable instructions for a particular kind of work, while Markdown keeps the goal and important decisions visible. Git records changes. Worktrees let me try things separately without mixing unfinished changes together. Pixi describes the software environment, and DataLad connects data and code with their history. When I need execution records, duct captures what a command did. These tools give the agent something concrete to act on, and give me something concrete to check. The skill workshop and worktree utilities are linked here if you want to explore them.",
+      "sources": [
+        "https://github.com/leej3/software-engineer-reborn/tree/main/talk-concepts/06-the-ai-era-development-environment.md",
+        "https://github.com/leej3/skills-workshop",
+        "https://github.com/leej3/stamped-ai-research/tree/codex/stamped-poster-study"
+      ]
+    },
+    {
+      "title": "The Software Engineer Reborn",
+      "seconds": 45,
+      "elements": [
+        {
+          "kind": "text",
+          "text": "The Software Engineer Reborn",
+          "x": 64,
+          "y": 55,
+          "w": 1152,
+          "h": 85,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "I used an interactive preparation space to work through the ideas.",
+          "x": 64,
+          "y": 150,
+          "w": 1152,
+          "h": 65,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "kind": "image",
+          "src": "assets/prep.png",
+          "x": 64,
+          "y": 245,
+          "w": 552,
+          "h": 345,
+          "alt": "Talk Atlas preparation site screenshot"
+        },
+        {
+          "kind": "image",
+          "src": "assets/reborn.png",
+          "x": 664,
+          "y": 245,
+          "w": 552,
+          "h": 345,
+          "alt": "The Software Engineer Reborn presentation screenshot"
+        },
+        {
+          "kind": "text",
+          "text": "Explore the preparation",
+          "x": 64,
+          "y": 615,
+          "w": 550,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://software-engineer-reborn-atlas.johnlee3728739.chatgpt.site/"
+        },
+        {
+          "kind": "text",
+          "text": "Open the presentation",
+          "x": 664,
+          "y": 615,
+          "w": 550,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://leej3.github.io/software-engineer-reborn/"
+        }
+      ],
+      "notes": "This is The Software Engineer Reborn, a talk I prepared for the Williamsburg software community. On the left is the preparation: a Talk Atlas where I can compare possible narratives and follow source notes. On the right is the presentation that came out of that process. Making a tool to think with became part of making the talk. The question I kept coming back to was about my own role. As the machine produces more implementation, I spend more attention on defining the problem, selecting evidence, and deciding which work I can actually stand behind. Both the preparation and the finished slides are public.",
+      "sources": [
+        "https://software-engineer-reborn-atlas.johnlee3728739.chatgpt.site/",
+        "https://leej3.github.io/software-engineer-reborn/",
+        "https://github.com/leej3/software-engineer-reborn/tree/main/talk-concepts"
+      ]
+    },
+    {
+      "title": "What did we just make?",
+      "seconds": 45,
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What did we just make?",
+          "x": 64,
+          "y": 55,
+          "w": 1152,
+          "h": 85,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "kind": "image",
+          "src": "assets/research-objects.png",
+          "x": 64,
+          "y": 190,
+          "w": 610,
+          "h": 382,
+          "alt": "Research objects with AI presentation screenshot"
+        },
+        {
+          "kind": "text",
+          "text": "A research object includes\nthe result and what it takes\nto inspect or rerun it.",
+          "x": 730,
+          "y": 202,
+          "w": 490,
+          "h": 155,
+          "size": 35,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "STAMPED asks about the package:\nits history, its parts, its environment,\nand how someone else can use it.",
+          "x": 730,
+          "y": 395,
+          "w": 490,
+          "h": 150,
+          "size": 28,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Research objects with AI: the talk",
+          "x": 64,
+          "y": 646,
+          "w": 640,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://research-object-with-ai.pages.dev/"
+        },
+        {
+          "kind": "text",
+          "text": "STAMPED principles",
+          "x": 730,
+          "y": 646,
+          "w": 480,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://stamped-principles.org/"
+        }
+      ],
+      "notes": "The next talk asks, 'What did we just make?' A figure or a report is only the visible result. The useful object also includes the inputs, code, decisions, and environment needed to inspect it or run it again. Our team's STAMPED principles give us a vocabulary for that package: self-contained, tracked, actionable, modular, portable, ephemeral, and distributable. In plain terms: can I get the pieces, see their history, run the procedure, and recover a useful state somewhere else? This matters beyond science. An AI-generated website, spreadsheet, or presentation also needs enough context for the next person to understand what they have.",
+      "sources": [
+        "https://research-object-with-ai.pages.dev/",
+        "https://github.com/leej3/research-object-with-ai",
+        "https://stamped-principles.org/"
+      ]
+    },
+    {
+      "title": "Orinoco Lite: connected research information",
+      "seconds": 55,
+      "elements": [
+        {
+          "kind": "text",
+          "text": "Orinoco Lite",
+          "x": 64,
+          "y": 55,
+          "w": 1152,
+          "h": 75,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Connected research information",
+          "x": 64,
+          "y": 150,
+          "w": 580,
+          "h": 105,
+          "size": 39,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "People, projects and outputs\nshare explicit relationships.",
+          "x": 64,
+          "y": 290,
+          "w": 570,
+          "h": 100,
+          "size": 32,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "An editor proposes changes.\nGitHub review preserves the history.\nThe records feed a website and graph.",
+          "x": 64,
+          "y": 420,
+          "w": 570,
+          "h": 155,
+          "size": 29,
+          "bold": false
+        },
+        {
+          "kind": "image",
+          "src": "assets/orinoco-graph.png",
+          "x": 665,
+          "y": 145,
+          "w": 550,
+          "h": 455,
+          "alt": "Center for Open Neuroscience graph explorer screenshot"
+        },
+        {
+          "kind": "text",
+          "text": "Project + source",
+          "x": 64,
+          "y": 646,
+          "w": 400,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/ORINOCO-Lite/orinoco-lite-dev"
+        },
+        {
+          "kind": "text",
+          "text": "Explore the graph",
+          "x": 500,
+          "y": 646,
+          "w": 340,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://dev.centerforopenneuroscience.org/explore/"
+        },
+        {
+          "kind": "text",
+          "text": "Poster",
+          "x": 1000,
+          "y": 646,
+          "w": 210,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://doi.org/10.5281/zenodo.22834595"
+        }
+      ],
+      "notes": "Orinoco Lite is one example of software I've been working on with agents. Research groups have information about people, projects, publications, and software scattered across many places. Here those things become structured records with explicit relationships. The website and this graph are different views of those records. An editor can propose a change through GitHub so the proposal and its review have a visible history. It builds on the upstream ORINOCO work, with a lighter Git-backed deployment. What interests me is the shared context: people can browse it, software can validate it, and agents can work with a clearer description of what the group knows. The screenshot is saved here, so this example doesn't depend on tonight's Wi-Fi.",
+      "sources": [
+        "https://github.com/ORINOCO-Lite/orinoco-lite-dev",
+        "https://dev.centerforopenneuroscience.org/explore/",
+        "https://doi.org/10.5281/zenodo.22834595"
+      ]
+    },
+    {
+      "title": "STAMPED in Practice",
+      "seconds": 60,
+      "elements": [
+        {
+          "kind": "text",
+          "text": "STAMPED in Practice",
+          "x": 64,
+          "y": 55,
+          "w": 1152,
+          "h": 85,
+          "size": 48,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "Can reusable skills help an agent\nleave better research evidence?",
+          "x": 64,
+          "y": 165,
+          "w": 695,
+          "h": 108,
+          "size": 37,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "3 paired tasks. 6 attempts.",
+          "x": 64,
+          "y": 310,
+          "w": 670,
+          "h": 57,
+          "size": 37,
+          "bold": true,
+          "color": "#15716e"
+        },
+        {
+          "kind": "text",
+          "text": "All matched the actual-data checks\nand passed fresh scientific replay.",
+          "x": 64,
+          "y": 380,
+          "w": 660,
+          "h": 96,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "One skills-assisted attempt still failed\n2 missing-value screening cases.",
+          "x": 64,
+          "y": 500,
+          "w": 660,
+          "h": 96,
+          "size": 30,
+          "bold": true,
+          "color": "#aa492e"
+        },
+        {
+          "kind": "image",
+          "src": "assets/stamped-poster.png",
+          "x": 815,
+          "y": 160,
+          "w": 400,
+          "h": 400,
+          "alt": "STAMPED in Practice poster, shown as an overview"
+        },
+        {
+          "kind": "text",
+          "text": "Exploratory, unblinded study.\nNo general claim of skill effectiveness.",
+          "x": 815,
+          "y": 585,
+          "w": 400,
+          "h": 68,
+          "size": 23,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "Study + evidence",
+          "x": 64,
+          "y": 646,
+          "w": 390,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/leej3/stamped-ai-research/blob/codex/stamped-poster-study/research/REPORT.md"
+        },
+        {
+          "kind": "text",
+          "text": "Poster + source",
+          "x": 440,
+          "y": 646,
+          "w": 350,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study"
+        }
+      ],
+      "notes": "The STAMPED in Practice poster asks whether reusable skills help an agent leave better research evidence. We compared three paired tasks using public mixed-gambles task data. One attempt in each pair had additional STAMPED skills. All six attempts matched the checks on the actual data and passed fresh scientific command replay. The skills-assisted attempts took longer and added explicit research records. But one of them failed two required missing-value screening cases. Those tokens weren't present in the actual dataset, so a successful replay didn't expose the defect. We retained that failure. These are three small, unblinded comparisons with shared infrastructure and agent assessments, not proof that skills work generally. And this is the public-data replacement for an earlier ABCD proposal, not an ABCD reproduction. For me the useful part is having evidence that lets us ask a more precise question than 'Did the agent finish?'",
+      "sources": [
+        "https://github.com/leej3/stamped-ai-research/blob/codex/stamped-poster-study/research/REPORT.md",
+        "https://github.com/con/talks/tree/codex/stamped-usrse-poster/2026-usrse/stamped-ai-study"
+      ]
+    },
+    {
+      "title": "What would convince you?",
+      "seconds": 25,
+      "elements": [
+        {
+          "kind": "text",
+          "text": "What would\nconvince you?",
+          "x": 64,
+          "y": 135,
+          "w": 1150,
+          "h": 190,
+          "size": 82,
+          "bold": true
+        },
+        {
+          "kind": "text",
+          "text": "What evidence do you need before you trust\nsomething an agent made?",
+          "x": 68,
+          "y": 365,
+          "w": 1100,
+          "h": 105,
+          "size": 40,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "I\u2019m exploring how to make that evidence easier to keep and inspect.",
+          "x": 68,
+          "y": 520,
+          "w": 1130,
+          "h": 70,
+          "size": 30,
+          "bold": false
+        },
+        {
+          "kind": "text",
+          "text": "leej3.github.io/ai-and-ales-2026",
+          "x": 68,
+          "y": 610,
+          "w": 1140,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://leej3.github.io/ai-and-ales-2026/"
+        },
+        {
+          "kind": "text",
+          "text": "All links, downloads and editable source",
+          "x": 68,
+          "y": 658,
+          "w": 1140,
+          "h": 38,
+          "size": 24,
+          "bold": false,
+          "color": "#15716e",
+          "link": "https://github.com/leej3/ai-and-ales-2026"
+        }
+      ],
+      "notes": "That's the thread through my work: agents let me make more things, and I want the result to carry enough evidence for someone else to inspect it. I'm still figuring out how much context is useful and when keeping it becomes more work than it saves. I'd love to hear what evidence you look for before trusting something an agent made. All the projects and this deck's editable source are linked here.",
+      "sources": [
+        "https://github.com/leej3/ai-and-ales-2026"
+      ]
+    }
+  ]
+}
